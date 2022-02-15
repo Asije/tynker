@@ -1,0 +1,44 @@
+.mainContainer{
+    width:100%;
+    background-color: #ecfcff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textTdiv{
+    display:flex;
+    width:60%;
+    height: 100px;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    line-height: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textTdiv >p{
+    line-height: 120%;
+}
+
+.tdivImg{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tImg{
+    width: 200px;
+    height: 150px;
+}
+
+.tImg2{ 
+    width:150px;
+    height:150px;   
+}
+
+.tdivImg2{
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+}
